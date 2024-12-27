@@ -38,7 +38,7 @@ jobs:
           path: rubydoc
 
       - name: Install Ruby
-        uses: ruby/setup-ruby@50ba3386b050ad5b97a41fcb81240cbee1d1821f # v1.188.0
+        uses: ruby/setup-ruby@bfefad842bb982ff05b233bcbc1571d97a87e69f # v1.206.0
         with:
           bundler-cache: true
           working-directory: rubydoc
